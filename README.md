@@ -14,7 +14,7 @@
 1. Where this persistence lives?
     * In the user's computer
 2. When the data would be deleted?
-    * By default the cookie is destroyed when the current browser window is closed,  \n
+    * By default the cookie is destroyed when the current browser window is closed,  <br>
     but it can be made to persist for an arbitrary length of time after that.
 3. At least three use cases for each?
     * used for general client-side storage
@@ -26,8 +26,8 @@
 1. Where this persistence lives?
     * Same as localStorage;
 2. When the data would be deleted?
-    * gets cleared when the page session ends; \n
-        A page session lasts for as long as the browser is open and survives over page reloads and restores. 
+    * gets cleared when the page session ends; <br>
+        A page session lasts for as long as the browser is open and survives over page reloads and restores.
 3. At least three use cases for each?
     * You can add data into the SessionStorage: `.setItem()`
     * You can read data from the SessionStorage: `.getItem()`
