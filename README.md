@@ -33,10 +33,15 @@
     * You can read data from the SessionStorage: `.getItem()`
     * You can either remove a specific item or clear: `removeItem()` && `clear()`
 
-#### Sessions
+#### [Sessions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions/Session)
 1. Where this persistence lives?
+    * web browser in "memory/ redis, or database"
 2. When the data would be deleted?
+    * You can set the expiration time or just manually delete
 3. At least three use cases for each?
+    * It's a way that web servers keeps tracks of user data
+    * collect and store the data through JWTokens on the backend
+    * keeping track if the user logged in or out
 
 #### A Database
 1. Where this persistence lives?
