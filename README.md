@@ -27,6 +27,7 @@
 
 #### Client-side cache
 1. Where this persistence lives?
+-- Web Browser.
 2. When the data would be deleted?
 3. At least three use cases for each?
 
