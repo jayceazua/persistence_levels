@@ -10,10 +10,17 @@
     * You can read data from the LocalStorage: `.getItem()`
     * You can either remove a specific item or clear: `removeItem()` && `clear()`
 
-#### Cookies
+#### [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 1. Where this persistence lives?
+    * In the user's computer
 2. When the data would be deleted?
+    * By default the cookie is destroyed when the current browser window is closed,  \n
+    but it can be made to persist for an arbitrary length of time after that.
 3. At least three use cases for each?
+    * used for general client-side storage
+    * Session management - (*Logins, shopping carts, game scores, or anything else the server should remember*)
+    * Personalization - (*User preferences, themes, and other settings*)
+    * Tracking - (*Recording and analyzing user behavior*)
 
 #### SessionStorage
 1. Where this persistence lives?
