@@ -1,6 +1,6 @@
 # Research each of the following forms of persistence:
 
-#### LocalStorage
+#### [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 1. Where this persistence lives?
     * saved across browser sessions
 2. When the data would be deleted?
