@@ -22,10 +22,15 @@
     * Personalization - (*User preferences, themes, and other settings*)
     * Tracking - (*Recording and analyzing user behavior*)
 
-#### SessionStorage
+#### [SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
 1. Where this persistence lives?
+    * Same as localStorage;
 2. When the data would be deleted?
+    * gets cleared when the page session ends
 3. At least three use cases for each?
+    * You can add data into the SessionStorage: `.setItem()`
+    * You can read data from the SessionStorage: `.getItem()`
+    * You can either remove a specific item or clear: `removeItem()` && `clear()`
 
 #### Sessions
 1. Where this persistence lives?
