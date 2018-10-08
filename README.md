@@ -43,11 +43,6 @@
     * collect and store the data through JWTokens on the backend
     * keeping track if the user logged in or out
 
-#### Database
-1. Where this persistence lives?
-2. When the data would be deleted?
-3. At least three use cases for each?
-
 #### [Client-side cache](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 1. Where this persistence lives?
     * in a folder in your computer system (*web browser*) temporary memory storage.
@@ -74,6 +69,11 @@
 3. At least three use cases for each?
 
 #### Remote Services
+1. Where this persistence lives?
+2. When the data would be deleted?
+3. At least three use cases for each?
+
+#### Database
 1. Where this persistence lives?
 2. When the data would be deleted?
 3. At least three use cases for each?
