@@ -48,10 +48,15 @@
 2. When the data would be deleted?
 3. At least three use cases for each?
 
-#### Client-side cache
+#### [Client-side cache](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 1. Where this persistence lives?
+    * in a folder in your computer system (*web browser*) temporary memory storage.
 2. When the data would be deleted?
+    * when you manually clear browser cache (*browser option settings*)
 3. At least three use cases for each?
+    * avoid transferring the same data over the network repeatedly
+    * reduce network traffic and latency
+    * Think CDNS
 
 #### Serve-side cache
 1. Where this persistence lives?
