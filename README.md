@@ -2,8 +2,13 @@
 
 #### LocalStorage
 1. Where this persistence lives?
+    * saved across browser sessions
 2. When the data would be deleted?
+    * has no expiration time
 3. At least three use cases for each?
+    * You can add data into the LocalStorage: `.setItem()`
+    * You can read data from the LocalStorage: `.getItem()`
+    * You can either remove a specific item or clear: `removeItem()` && `clear()`
 
 #### Cookies
 1. Where this persistence lives?
@@ -27,7 +32,6 @@
 
 #### Client-side cache
 1. Where this persistence lives?
-    * Web Browser.
 2. When the data would be deleted?
 3. At least three use cases for each?
 
