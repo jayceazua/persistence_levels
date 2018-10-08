@@ -26,7 +26,8 @@
 1. Where this persistence lives?
     * Same as localStorage;
 2. When the data would be deleted?
-    * gets cleared when the page session ends
+    * gets cleared when the page session ends; \n
+        A page session lasts for as long as the browser is open and survives over page reloads and restores. 
 3. At least three use cases for each?
     * You can add data into the SessionStorage: `.setItem()`
     * You can read data from the SessionStorage: `.getItem()`
