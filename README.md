@@ -43,7 +43,7 @@
     * collect and store the data through JWTokens on the backend
     * keeping track if the user logged in or out
 
-#### A Database
+#### Database
 1. Where this persistence lives?
 2. When the data would be deleted?
 3. At least three use cases for each?
@@ -68,12 +68,12 @@
     * stores it longer in memory than client-side
     * increases speed of loading heavier data
 
-#### A remote cache (e.g. Redis)
+#### Remote Cache
 1. Where this persistence lives?
 2. When the data would be deleted?
 3. At least three use cases for each?
 
-#### A remote services (e.g. AWS S3, RabbitMQ, PubNub)
+#### Remote Services
 1. Where this persistence lives?
 2. When the data would be deleted?
 3. At least three use cases for each?
