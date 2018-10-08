@@ -58,10 +58,15 @@
     * reduce network traffic and latency
     * Think CDNS
 
-#### Serve-side cache
+#### [Server-side cache](https://medium.com/the-node-js-collection/simple-server-side-cache-for-express-js-with-node-js-45ff296ca0f0)
 1. Where this persistence lives?
+    * server itself
 2. When the data would be deleted?
+    * manually whenever you clear the server of the stored data
 3. At least three use cases for each?
+    * accelerate application performance
+    * stores it longer in memory than client-side
+    * increases speed of loading heavier data
 
 #### A remote cache (e.g. Redis)
 1. Where this persistence lives?
