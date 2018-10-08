@@ -58,7 +58,7 @@
     * reduce network traffic and latency
     * Think CDNS
 
-#### [Server-side cache](https://medium.com/the-node-js-collection/simple-server-side-cache-for-express-js-with-node-js-45ff296ca0f0)
+#### [Server-side cache](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 1. Where this persistence lives?
     * server itself
 2. When the data would be deleted?
